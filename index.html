@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title">Page</h1>
+        <p class="subtitle">Understanding</p>
+    </header>
+
+    <main class="container">
+        <section class="content-box">
+            <h2>Content</h2>
+            <p>Default box-sizing.</p>
+            <div class="dimensions">
+                <span>Width: 300px + Padding: 40px + Border: 4px = 388px total</span>
+            </div>
+        </section>
+
+        <section class="border-box">
+            <h2>BordeR</h2>
+            <p>This uses box-sizing: border-box for more predictable sizing.</p>
+            <div class="dimensions">
+                <span>Width: 300px total (includes padding and border)</span>
+            </div>
+        </section>
+
+        <div class="spacing-demo">
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>CSS Box Model</p>
+    </footer>
+</body>
+</html>
